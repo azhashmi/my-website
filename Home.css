@@ -1235,14 +1235,18 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 572px;
+  }
+
   .u-section-6 .u-list-1 {
-    width: 340px;
+    width: 228px;
     margin-left: 0;
-    margin-right: 0;
   }
 
   .u-section-6 .u-repeater-1 {
     grid-template-columns: 100%;
+    min-height: 200px;
   }
 
   .u-section-6 .u-icon-1 {
@@ -1259,6 +1263,10 @@
 
   .u-section-6 .u-icon-4 {
     margin-bottom: -100px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-top: 89px;
   }
 
   .u-section-6 .u-image-1 {
