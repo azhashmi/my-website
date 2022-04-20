@@ -81,7 +81,6 @@
   grid-template-columns: 20% 20% 20% 20% 20%;
   min-height: 374px;
   grid-gap: 0px 0px;
-  grid-auto-columns: 20%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -208,15 +207,12 @@
 @media (max-width: 991px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 50% 50%;
-    grid-auto-columns: 33.333333333333336%;
     min-height: 789px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-repeater-1 {
-    grid-template-columns: repeat(2, 50%);
-    grid-auto-columns: 50%;
     min-height: 1331px;
   }
 }
@@ -224,7 +220,6 @@
 @media (max-width: 575px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 } .u-section-3 {
   background-image: none;
