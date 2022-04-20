@@ -38460,8 +38460,9 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
+    height: 38px;
     margin-top: -43px;
-    margin-left: calc(((100% - 340px) / 2) + -39px);
+    margin-left: calc(((100% - 340px) / 2) + -19px);
   }
 
   .u-header .u-menu-1 {
