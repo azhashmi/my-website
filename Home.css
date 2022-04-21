@@ -1092,7 +1092,6 @@
   width: 242px;
   min-height: 35px;
   transition-duration: 1s;
-  height: auto;
   margin: 24px auto 0;
 }
 
@@ -1196,10 +1195,6 @@
   .u-section-5 .u-gallery-1 {
     width: 940px;
     margin-left: 0;
-  }
-
-  .u-section-5 .u-group-1 {
-    height: auto;
   }
 
   .u-section-5 .u-repeater-1 {
@@ -1404,7 +1399,6 @@
 
 .u-section-6 .u-repeater-1 {
   grid-gap: 10px 10px;
-  grid-auto-columns: calc(25% - 7.5px);
   grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
   min-height: 50px;
 }
@@ -1476,7 +1470,6 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-template-columns: repeat(4, calc(25% - 7.5px));
     min-height: 41px;
   }
 }
@@ -1487,8 +1480,7 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 5px);
-    grid-template-columns: repeat(2, calc(50% - 5px));
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 126px;
   }
 }
@@ -1499,7 +1491,6 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 }
@@ -1508,10 +1499,6 @@
   .u-section-6 .u-text-1 {
     font-size: 0.875rem;
     margin-right: 137px;
-  }
-
-  .u-section-6 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 
   .u-section-6 .u-text-2 {
