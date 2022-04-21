@@ -38005,9 +38005,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-3 {
   height: 55px;
   width: 127px;
-  box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
-  transition-duration: 0.5s;
-  margin: -190px auto 0 126px;
+  margin: -186px auto 0 121px;
 }
 
 .u-header .u-layout-wrap-1 {
@@ -38195,6 +38193,8 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 55px;
     width: 127px;
     margin-top: -187px;
+    margin-left: 121px;
+    transition-duration: 0.5s;
   }
 
   .u-header .u-layout-wrap-1 {
@@ -38490,7 +38490,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-group-2 {
     width: 340px;
     margin-top: -246px;
-    margin-left: calc(((100% - 340px) / 2) + -30px);
+    margin-left: calc(((100% - 340px) / 2) + -27px);
   }
 
   .u-header .u-text-1 {
@@ -38581,16 +38581,6 @@ a.u-link.u-text-hover-grey-90:hover {
     font-size: 0.75rem;
   }
 }
-.u-header .u-image-3, .u-header .u-image-3:before {
-    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position
-}
-.u-header .u-image-3.u-image-3.u-image-3:hover {
-    box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important
-}
-.u-header .u-image-3.u-image-3.u-image-3.hover {
-    box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important
-} 
-
  .u-footer {
   background-image: none;
 }
